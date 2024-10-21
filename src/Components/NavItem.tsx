@@ -9,7 +9,7 @@ const NavItem = (props: Props) => {
   const [hover, setHover] = useState<boolean>(false);
   return (
     <div
-      className="flex hover:text-[#00A6FF] flex-col items-center"
+      className="flex hover:text-[#00A6FF] flex-col justify-between items-center text-sm"
       onMouseEnter={() => {
         setHover(true);
       }}

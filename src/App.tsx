@@ -63,7 +63,7 @@ const App = () => {
   }, [showFavorites]);
 
   return (
-    <main className="px-2 flex flex-col h-screen">
+    <main className="px-2 flex items-center flex-col h-screen">
       <div>
         <Header />
         <Navigation

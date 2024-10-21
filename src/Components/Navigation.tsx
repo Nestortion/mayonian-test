@@ -15,7 +15,7 @@ type Props = {
 
 const Navigation = ({ setShowFavorite, toggleSearch, setCategory }: Props) => {
   return (
-    <div className="flex gap-4 py-4">
+    <div className="flex justify-evenly py-4">
       <NavItem
         onClick={() => {
           toggleSearch(true);
